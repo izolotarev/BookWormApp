@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BookWormApp</string>
+    <string name="settings_name">Settings</string>
+    <string name="addbook_name">Add book</string>
+    <string name="cart_name">Cart</string>
+    <string name="facebook_app_id">243261782891672</string>
+    <string name="facebook_login_protocol_scheme">fb243261782891672</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="izolotarev.bookwormapp.AddBookToBranchActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"></include>
+
+    <TextView
+        android:id="@+id/selectBookTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select book" />
+
+    <Spinner
+        android:id="@+id/selectBookSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/selectBranchTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select branch" />
+
+    <Spinner
+        android:id="@+id/selectBranchSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="price"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="quantity"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/addBookToBranchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addBookToBranch"
+        android:text="Add book to branch" />
+
+</LinearLayout>

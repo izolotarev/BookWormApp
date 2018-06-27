@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@drawable/book_0"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:cropToPadding="true"/>-->
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/categoryImageView"
+        android:layout_width="320px"
+        android:layout_height="320px"
+        app:srcCompat="@drawable/book_0" />
+
+    <TextView
+        android:id="@+id/categoryTextView"
+        android:text="Font size 50px (pixels)"
+        android:layout_width="320px"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:gravity="center"
+        android:textSize="50px"
+        />
+
+</LinearLayout>
